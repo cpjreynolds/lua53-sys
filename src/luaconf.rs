@@ -1,4 +1,4 @@
-// Definitions from `luaconf.h`.
+//! Definitions from `luaconf.h`.
 
 pub use super::glue::{LUA_VDIR, LUA_PATH_DEFAULT, LUA_CPATH_DEFAULT, LUA_DIRSEP, LUA_EXTRASPACE,
                       LUA_IDSIZE, LUAI_MAXSHORTLEN, LUA_KCONTEXT, LUAI_BITSINT, LUAI_MAXSTACK,

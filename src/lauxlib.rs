@@ -1,4 +1,4 @@
-//! Contains definitions from `lauxlib.h`.
+//! Definitions from `lauxlib.h`.
 
 use libc::{c_int, c_char, c_void, size_t};
 use lua::{self, lua_State, lua_CFunction, lua_Integer, lua_Number};
@@ -234,4 +234,8 @@ pub unsafe fn luaL_prepbuffer(B: *mut luaL_Buffer) -> *mut c_char {
 pub struct luaL_Stream {
     pub f: *mut ::libc::FILE,
     pub closef: lua_CFunction,
+}
+
+extern "C" {
+    pub fn luaL_openlibs(L: *mut lua_State);
 }

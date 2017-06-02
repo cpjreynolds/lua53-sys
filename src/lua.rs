@@ -1,9 +1,9 @@
+//! Definitions from `lua.h`.
+
 use std::ptr;
 
 use libc::{c_int, size_t, c_void, c_char, c_uchar};
 use luaconf;
-
-// Definitions from `lua.h`.
 
 pub use super::glue::{LUA_VERSION_MAJOR, LUA_VERSION_MINOR, LUA_VERSION_NUM, LUA_VERSION_RELEASE,
                       LUA_VERSION, LUA_RELEASE, LUA_COPYRIGHT, LUA_AUTHORS, LUA_REGISTRYINDEX};

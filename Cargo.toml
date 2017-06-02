@@ -1,6 +1,6 @@
 [package]
 name = "lua53-sys"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Cole Reynolds <cpjreynolds@gmail.com>"]
 description = "Rust bindings to Lua 5.3"
 documentation = "https://docs.rs/lua53-sys"

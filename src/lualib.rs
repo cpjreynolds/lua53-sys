@@ -1,3 +1,5 @@
+//! Definitions from `lualib.h`.
+
 use libc::c_int;
 use lua::lua_State;
 
@@ -17,6 +19,4 @@ extern "C" {
     pub fn luaopen_math(L: *mut lua_State) -> c_int;
     pub fn luaopen_debug(L: *mut lua_State) -> c_int;
     pub fn luaopen_package(L: *mut lua_State) -> c_int;
-
-    pub fn luaL_openlibs(L: *mut lua_State);
 }
