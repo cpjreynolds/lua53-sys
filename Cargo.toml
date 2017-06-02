@@ -2,6 +2,13 @@
 name = "lua53-sys"
 version = "0.1.0"
 authors = ["Cole Reynolds <cpjreynolds@gmail.com>"]
+description = "Rust bindings to Lua 5.3"
+documentation = "https://docs.rs/lua53-sys"
+repository = "https://github.com/cpjreynolds/lua53-sys"
+homepage = "https://github.com/cpjreynolds/lua53-sys"
+readme = "README.md"
+license = "MIT"
+keywords = ["lua"]
 build = "build.rs"
 
 [dependencies]
